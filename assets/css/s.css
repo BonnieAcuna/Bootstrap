@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/gravel.png");
+    overflow: auto;
+}
+
+.navbar {
+    border-bottom: 3px solid gray;
+    /* height: 75px; */
+}
+
+.navbar-brand {
+    background-color: turquoise;
+    width: 200px;
+    height: 75px;
+    font-size: 28px;
+}
+
+hr {
+    border-width: 2px;
+    border-color: gray;
+    overflow: visible;
+    width: 95%;
+}
+
+h1 {
+    color: turquoise;
+}
+
+p {
+    text-indent: 20px;
+    color: gray;
+}
+
+.btn {
+    background-color: turquoise;
+}
+
+h5 {
+    background-color: turquoise;
+}
+
+.form-group {
+    color: turquoise;
+}
+
+
+.card {
+    background-color: gray;
+    border-top: 5px solid turquoise;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
